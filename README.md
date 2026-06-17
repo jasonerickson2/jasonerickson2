@@ -13,7 +13,7 @@ I'm a data engineer who ships production systems and an entrepreneur who builds 
 - **GPT-4o pricing advisor** that analyzes booking pace, occupancy velocity, seasonality, and lead-time percentiles, and returns structured pricing decisions with natural-language reasoning
 - **Deterministic guardrails on the LLM**: floor-price enforcement, lead-time guards, and tier constraints, so the AI suggests but hard rules prevent bad calls
 - **Human-in-the-loop approval** over SMS and a React dashboard
-- **Around 30 Supabase Edge Functions in production** (Deno/TypeScript): a dependency-ordered daily pricing pipeline, webhook ingestion for bookings and cafe sales, dead-letter retry queues, and the APIs that serve the dashboard, with about 19 running on cron schedules
+- **Serverless Supabase backend** (Deno/TypeScript): a dependency-ordered daily pricing pipeline, webhook ingestion for bookings and cafe sales, dead-letter retry queues, and the APIs that serve the dashboard
 - **Multi-channel rate sync** to Airbnb, Booking.com, VRBO, and a direct booking site, with Playwright automation where the channel APIs fall short
 - Roughly 90K lines of TypeScript and Python; currently in private beta with neighboring property operators before a broader launch
 
